@@ -1,1 +1,23 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Virtual environments
 transformer_env/
+venv/
+env/
+.venv/
+
+# Training artifacts
+opus_books_weights/
+runs/
+*.pt
+
+# Tokenizers (regenerated on first run)
+tokenizer_*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
