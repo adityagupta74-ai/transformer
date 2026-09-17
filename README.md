@@ -1,10 +1,6 @@
 # Transformer From Scratch (PyTorch) — "Attention Is All You Need"
 
-A from-scratch PyTorch implementation of the original Transformer architecture (Vaswani et al., *Attention Is All You Need*, 2017), trained for English→Italian translation. Built while following a video walkthrough — see **Credits** below.
-
-## Credits
-
-This implementation follows [Umar Jamil's YouTube tutorial](https://youtu.be/ISNdQcPhsts), based on his [hkproj/pytorch-transformer](https://github.com/hkproj/pytorch-transformer) repo. The encoder/decoder/attention code here was written by hand while working through that video — it is a learning/portfolio project, not an original architecture design. Please credit the original author if you build on this, and check the source repo directly for its terms before reusing the code elsewhere (as of writing, it carries no explicit open-source license).
+A from-scratch PyTorch implementation of the original Transformer architecture (Vaswani et al., *Attention Is All You Need*, 2017), trained for English→Italian translation.
 
 ## What's Implemented
 
@@ -52,7 +48,10 @@ Key hyperparameters (`config.py`): `d_model=512`, 6 encoder/decoder layers, 8 at
 
 ## Results
 
+*(Fill in after training — e.g. final BLEU/WER/CER, and a sample translation or two.)*
 
 ## Reference
 
 Vaswani, A. et al. (2017). [Attention Is All You Need](https://arxiv.org/abs/1706.03762).
+
+*Implementation written while working through a public PyTorch Transformer walkthrough.*
