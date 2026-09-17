@@ -48,7 +48,6 @@ Key hyperparameters (`config.py`): `d_model=512`, 6 encoder/decoder layers, 8 at
 
 ## Results
 
-*(Fill in after training — e.g. final BLEU/WER/CER, and a sample translation or two.)*
 
 ## Reference
 
